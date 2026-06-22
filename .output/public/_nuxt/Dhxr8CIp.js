@@ -1,0 +1,1 @@
+import{o,b as t,d as n}from"./XHg4X9PI.js";const r={xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24"};function s(l,e){return o(),t("svg",r,[...e[0]||(e[0]=[n("path",{stroke:"#FFF","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"2",d:"M18 6 6 18M6 6l12 12"},null,-1)])])}const a={render:s};export{a as default,s as render};

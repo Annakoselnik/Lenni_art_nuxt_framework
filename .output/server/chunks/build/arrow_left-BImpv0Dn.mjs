@@ -1,0 +1,17 @@
+import { openBlock, createElementBlock, createStaticVNode } from 'vue';
+
+const _hoisted_1 = {
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "91",
+  height: "60",
+  fill: "none"
+};
+function render(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1, [..._cache[0] || (_cache[0] = [
+    createStaticVNode('<defs><clipPath id="a"><path fill="#FFF" d="M0 18h70v24H0z"></path></clipPath></defs><path d="M0 0h91v60H0z"></path><path fill="#1F1E1E" d="M40.709 50.508a28.7 28.7 0 0 0 6.806 5.069 28.6 28.6 0 0 0 7.977 2.866q4.2.84 8.463.417a28.6 28.6 0 0 0 8.219-2.067 28.7 28.7 0 0 0 7.268-4.374 28.8 28.8 0 0 0 5.69-6.306 28.9 28.9 0 0 0 3.624-7.694A29 29 0 0 0 90 30a29 29 0 0 0-1.244-8.42 28.9 28.9 0 0 0-3.623-7.693 28.8 28.8 0 0 0-5.691-6.306 28.7 28.7 0 0 0-7.268-4.374 28.6 28.6 0 0 0-8.22-2.067 28.6 28.6 0 0 0-8.462.417q-4.2.84-7.977 2.866a28.7 28.7 0 0 0-6.806 5.07L39.29 8.08a30.7 30.7 0 0 1 7.278-5.42A30.6 30.6 0 0 1 55.1-.404a30.6 30.6 0 0 1 9.05-.447 30.6 30.6 0 0 1 8.79 2.211 30.7 30.7 0 0 1 7.772 4.678 30.8 30.8 0 0 1 6.085 6.74 30.9 30.9 0 0 1 3.873 8.224A31 31 0 0 1 92 30q0 4.598-1.33 8.998a30.9 30.9 0 0 1-3.872 8.223 30.8 30.8 0 0 1-6.085 6.741 30.7 30.7 0 0 1-7.771 4.678 30.6 30.6 0 0 1-8.79 2.21q-4.56.451-9.051-.446a30.6 30.6 0 0 1-8.532-3.065 30.7 30.7 0 0 1-7.278-5.42zm-1.39 1.41h-.028a.99.99 0 0 1 .003-1.413.99.99 0 0 1 1.415.003v.028zm1.39-42.454v.028a.99.99 0 0 1-1.415.003.99.99 0 0 1-.003-1.414h.029z"></path><g clip-path="url(#a)"><path d="M0 18h70v24H0z"></path><path stroke="#1F1E1E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 30h60M58 23l7 7-7 7"></path></g>', 4)
+  ])]);
+}
+const arrow_left = { render };
+
+export { arrow_left as default, render };
+//# sourceMappingURL=arrow_left-BImpv0Dn.mjs.map

@@ -1,0 +1,8 @@
+const AppOffers_vue_vue_type_style_index_0_lang = ".container{box-sizing:border-box;margin:0 auto;max-width:1414px;padding-left:40px;padding-right:40px;width:100%}@media(max-width:1339px){.container{padding-left:40px;padding-right:40px}}@media(max-width:767px){.container{padding-left:30px;padding-right:30px}}@media(max-width:369px){.container{padding-left:20px;padding-right:20px}}.width_624{box-sizing:border-box;max-width:624px;width:100%}@media(max-width:1659px){.width_624{max-width:604px}}@media(max-width:1339px){.width_624{max-width:566px}}.is-hidden{border:none!important;height:0!important;margin:0!important;padding:0!important;position:absolute!important;width:0!important;clip:rect(0 0 0 0)!important;clip-path:inset(100%)!important;overflow:hidden!important;pointer-events:none!important;visibility:hidden!important;white-space:nowrap!important}@media(max-width:767px){.app-offers{margin-top:40px}}@media(max-width:369px){.app-offers{margin-top:40px}}.app-offers__title{font-family:Lora;font-size:22px;font-weight:400;letter-spacing:2%;line-height:30px;margin:0 0 46px;text-align:center;text-transform:uppercase}@media(max-width:1339px){.app-offers__title{margin:0 0 46px}}@media(max-width:767px){.app-offers__title{margin:0 0 43px}}@media(max-width:369px){.app-offers__title{margin:0 0 25px}}.app-offers__btns{display:flex;flex-direction:row;gap:106px}@media(max-width:1339px){.app-offers__btns{gap:94px}}@media(max-width:767px){.app-offers__btns{gap:56px}}@media(max-width:369px){.app-offers__btns{flex-direction:column;gap:25px}}";
+
+const AppOffersStyles_C3kr67X = [
+  AppOffers_vue_vue_type_style_index_0_lang
+];
+
+export { AppOffersStyles_C3kr67X as default };
+//# sourceMappingURL=AppOffers-styles.C-3kr67X.mjs.map

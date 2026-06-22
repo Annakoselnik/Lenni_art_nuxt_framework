@@ -1,0 +1,76 @@
+import { mergeProps, unref, useSSRContext } from 'vue';
+import { ssrRenderAttrs, ssrRenderClass, ssrRenderAttr, ssrIncludeBooleanAttr, ssrInterpolate } from 'vue/server-renderer';
+import { useField } from 'vee-validate';
+
+const _sfc_main = {
+  __name: "FieldCheck",
+  __ssrInlineRender: true,
+  props: {
+    initialValue: {
+      default: void 0
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    label: {
+      type: String,
+      default: ""
+    },
+    smallLabel: {
+      type: Boolean,
+      default: false
+    },
+    checkedValue: {
+      type: [String, Number],
+      default: 1
+    },
+    rules: {
+      type: Object,
+      default: () => ({})
+    },
+    submitCount: {
+      type: Number,
+      default: 0
+    },
+    red: {
+      type: Boolean,
+      default: false
+    },
+    disabled: {
+      type: Boolean,
+      default: false
+    }
+  },
+  setup(__props) {
+    const props = __props;
+    const { checked, errorMessage, handleChange } = useField(
+      props.name,
+      props.rules,
+      {
+        type: "checkbox",
+        checkedValue: props.checkedValue
+      }
+    );
+    return (_ctx, _push, _parent, _attrs) => {
+      _push(`<div${ssrRenderAttrs(mergeProps({ class: "field" }, _attrs))}><label class="${ssrRenderClass([{ "check--red": __props.red, "check--disabled": __props.disabled }, "check field__check"])}"><input type="checkbox" class="check__input"${ssrRenderAttr("value", __props.checkedValue)}${ssrIncludeBooleanAttr(unref(checked)) ? " checked" : ""}${ssrIncludeBooleanAttr(__props.disabled) ? " disabled" : ""}><span class="check__mark"></span><span class="${ssrRenderClass([{
+        "check__caption--s": __props.smallLabel
+      }, "check__caption"])}">${__props.label ?? ""}</span></label>`);
+      if (unref(errorMessage) && __props.submitCount) {
+        _push(`<span class="field__error field-error">${ssrInterpolate(unref(errorMessage))}</span>`);
+      } else {
+        _push(`<!---->`);
+      }
+      _push(`</div>`);
+    };
+  }
+};
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/field/FieldCheck.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+
+export { _sfc_main as _ };
+//# sourceMappingURL=FieldCheck-Dr3yX9Cm.mjs.map

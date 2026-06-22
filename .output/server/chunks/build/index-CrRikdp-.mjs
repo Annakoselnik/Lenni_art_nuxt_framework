@@ -1,0 +1,423 @@
+import { _ as _export_sfc, e as useAsyncData, d as _sfc_main$7$1, i as __nuxt_component_1$1 } from './server.mjs';
+import { mergeProps, withCtx, openBlock, createBlock, Fragment, renderList, ref, withAsyncContext, unref, computed, createVNode, resolveDynamicComponent, useSSRContext } from 'vue';
+import { ssrRenderAttrs, ssrRenderComponent, ssrRenderList, ssrRenderAttr, ssrInterpolate, ssrRenderVNode, ssrRenderStyle } from 'vue/server-renderer';
+import { b as _sfc_main$9, _ as _sfc_main$9$1, a as _sfc_main$8$1 } from './AppOffers-35IIWrUy.mjs';
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation, Pagination } from 'swiper/modules';
+import '../_/nitro.mjs';
+import 'node:http';
+import 'node:https';
+import 'node:events';
+import 'node:buffer';
+import 'node:fs';
+import 'node:path';
+import 'node:crypto';
+import 'node:url';
+import '../routes/renderer.mjs';
+import 'vue-bundle-renderer/runtime';
+import 'unhead/server';
+import 'devalue';
+import 'unhead/utils';
+import 'pinia';
+import 'vue-router';
+import '@vue/shared';
+import '@vee-validate/i18n';
+import 'vee-validate';
+import '@vee-validate/rules';
+import './FieldCheck-Dr3yX9Cm.mjs';
+
+const _sfc_main$8 = {};
+function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
+  const _component_SvgIcon = _sfc_main$7$1;
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "the-logo" }, _attrs))}><div class="the-logo__wrapper">`);
+  _push(ssrRenderComponent(_component_SvgIcon, {
+    name: "logo_big",
+    class: "the-logo__icon"
+  }, null, _parent));
+  _push(`</div></div>`);
+}
+const _sfc_setup$8 = _sfc_main$8.setup;
+_sfc_main$8.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/the/TheLogo.vue");
+  return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
+};
+const __nuxt_component_0$1 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$8, [["ssrRender", _sfc_ssrRender$5]]), { __name: "TheLogo" });
+const _sfc_main$7 = {};
+function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
+  const _component_TheLogo = __nuxt_component_0$1;
+  _push(`<header${ssrRenderAttrs(mergeProps({ class: "app-hero" }, _attrs))}><h1 class="app-hero__title">Арт - пространство</h1>`);
+  _push(ssrRenderComponent(_component_TheLogo, { class: "app-hero__logo" }, null, _parent));
+  _push(`<p class="app-hero__description"> для людей, горящим сердцем и делом <br> место для настоящего </p></header>`);
+}
+const _sfc_setup$7 = _sfc_main$7.setup;
+_sfc_main$7.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/app/AppHero.vue");
+  return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
+};
+const __nuxt_component_0 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$7, [["ssrRender", _sfc_ssrRender$4]]), { __name: "AppHero" });
+const _imports_0 = "" + __buildAssetsURL("pic1.Cs9uFxkx.jpg");
+const _imports_1 = "" + __buildAssetsURL("pic2.BADpwwvN.jpg");
+const _imports_2 = "" + __buildAssetsURL("pic3.BS-4kIs-.jpg");
+const _sfc_main$6 = {};
+function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
+  const _component_SvgIcon = _sfc_main$7$1;
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "app-about" }, _attrs))}><h2 class="app-about__section-title section-title">О НАС</h2><div class="app-about__container"><div class="app-about__block1"><h3 class="app-about__block1-title"> Проект «Millennials» </h3><div class="app-about__block1-text"><div class="app-about__block1-text--style"> Вдохновлен молодыми идейными людьми, увлеченными творчеством, эмоциями и желанием сделать мир лучше, проявить себя. У них есть талант и стремление, у нас возможность помочь им воплотить их мечту в реальность. </div></div></div><div class="app-about__block2"><picture class="app-about__picture"><img${ssrRenderAttr("src", _imports_0)} class="app-about__img" alt="pic"></picture><h3 class="app-about__title"> Мы предоставляем площади для вашего мероприятия </h3><picture class="app-about__picture2"><img${ssrRenderAttr("src", _imports_1)} class="app-about__img" alt="pic2"></picture><p class="app-about__text"> И оказываем помощь с организацией, если вам это нужно. <br> Наша цель: вовлечь в культурную жизнь города как можно больше людей, помочь молодым ребятам сделать первые шаги к своей мечте и рассказать всем о том, что их волнует. </p></div><div class="app-about__block3"><div class="app-about__pic-3"><div class="app-about__red-rectangle"></div><img${ssrRenderAttr("src", _imports_2)} class="app-about__img-block3" alt="pic3"></div><div class="app-about__text-3"> Мы уже успешно организовали и провели более 100 проектов. Посмотрите, как это было классно. </div><div class="app-about__button-3--style"><button class="app-about__button-3"><span class="app-about__button-3--text">Смотреть</span><span>`);
+  _push(ssrRenderComponent(_component_SvgIcon, {
+    class: "more-btn__arrow",
+    name: "arrow",
+    width: "92",
+    height: "62"
+  }, null, _parent));
+  _push(`</span></button></div></div></div></section>`);
+}
+const _sfc_setup$6 = _sfc_main$6.setup;
+_sfc_main$6.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/app/AppAbout.vue");
+  return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
+};
+const __nuxt_component_2 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$6, [["ssrRender", _sfc_ssrRender$3]]), { __name: "AppAbout" });
+const _sfc_main$5 = {
+  __name: "TheSwiper",
+  __ssrInlineRender: true,
+  props: {
+    component: {
+      type: Object,
+      default: true
+    },
+    list: {
+      type: Array,
+      default: () => []
+    },
+    slidesPerView: {
+      type: [String, Number],
+      default: "auto"
+    },
+    spaceBetween: {
+      type: Number,
+      default: 20
+    },
+    breakpoints: {
+      type: Object,
+      default: () => ({
+        768: {
+          slidesPerView: "auto",
+          spaceBetween: 30
+        },
+        1020: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        },
+        1340: {
+          slidesPerView: 3,
+          spaceBetween: 40
+        },
+        1660: {
+          slidesPerView: 3,
+          spaceBetween: 60
+        }
+      })
+    },
+    freeMode: {
+      type: Boolean,
+      default: true
+    },
+    speed: {
+      type: Number,
+      default: 500
+    }
+  },
+  setup(__props) {
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_SvgIcon = _sfc_main$7$1;
+      _push(`<div${ssrRenderAttrs(mergeProps({ class: "the-swiper" }, _attrs))}>`);
+      _push(ssrRenderComponent(unref(Swiper), {
+        "slides-per-view": __props.slidesPerView,
+        "space-between": 20,
+        breakpoints: __props.breakpoints,
+        freeMode: __props.freeMode,
+        speed: __props.speed,
+        "grab-cursor": true,
+        modules: [unref(Navigation), unref(Pagination)],
+        pagination: { clickable: true, el: ".swiper-pagination-bullets" },
+        navigation: {
+          prevEl: ".swiper-arrow-prev",
+          nextEl: ".swiper-arrow-next"
+        },
+        class: "the-swiper__slider"
+      }, {
+        "container-end": withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<div class="swiper-footer"${_scopeId}><button type="button" class="swiper-arrow-prev arrow arrow--left"${_scopeId}>`);
+            _push2(ssrRenderComponent(_component_SvgIcon, {
+              class: "arrow__icon",
+              name: "arrow",
+              width: "92",
+              height: "62"
+            }, null, _parent2, _scopeId));
+            _push2(`</button><div class="swiper-pagination-bullets"${_scopeId}></div><button type="button" class="swiper-arrow-next arrow"${_scopeId}>`);
+            _push2(ssrRenderComponent(_component_SvgIcon, {
+              class: "arrow__icon",
+              name: "arrow",
+              width: "92",
+              height: "62"
+            }, null, _parent2, _scopeId));
+            _push2(`</button></div>`);
+          } else {
+            return [
+              createVNode("div", { class: "swiper-footer" }, [
+                createVNode("button", {
+                  type: "button",
+                  class: "swiper-arrow-prev arrow arrow--left"
+                }, [
+                  createVNode(_component_SvgIcon, {
+                    class: "arrow__icon",
+                    name: "arrow",
+                    width: "92",
+                    height: "62"
+                  })
+                ]),
+                createVNode("div", { class: "swiper-pagination-bullets" }),
+                createVNode("button", {
+                  type: "button",
+                  class: "swiper-arrow-next arrow"
+                }, [
+                  createVNode(_component_SvgIcon, {
+                    class: "arrow__icon",
+                    name: "arrow",
+                    width: "92",
+                    height: "62"
+                  })
+                ])
+              ])
+            ];
+          }
+        }),
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`<!--[-->`);
+            ssrRenderList(__props.list, (card, cardIndex) => {
+              _push2(ssrRenderComponent(unref(SwiperSlide), {
+                key: cardIndex,
+                class: "the-swiper__slider"
+              }, {
+                default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+                  if (_push3) {
+                    ssrRenderVNode(_push3, createVNode(resolveDynamicComponent(__props.component), {
+                      data: card,
+                      class: "the-swiper__card"
+                    }, null), _parent3, _scopeId2);
+                  } else {
+                    return [
+                      (openBlock(), createBlock(resolveDynamicComponent(__props.component), {
+                        data: card,
+                        class: "the-swiper__card"
+                      }, null, 8, ["data"]))
+                    ];
+                  }
+                }),
+                _: 2
+              }, _parent2, _scopeId));
+            });
+            _push2(`<!--]-->`);
+          } else {
+            return [
+              (openBlock(true), createBlock(Fragment, null, renderList(__props.list, (card, cardIndex) => {
+                return openBlock(), createBlock(unref(SwiperSlide), {
+                  key: cardIndex,
+                  class: "the-swiper__slider"
+                }, {
+                  default: withCtx(() => [
+                    (openBlock(), createBlock(resolveDynamicComponent(__props.component), {
+                      data: card,
+                      class: "the-swiper__card"
+                    }, null, 8, ["data"]))
+                  ]),
+                  _: 2
+                }, 1024);
+              }), 128))
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div>`);
+    };
+  }
+};
+const _sfc_setup$5 = _sfc_main$5.setup;
+_sfc_main$5.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/the/TheSwiper.vue");
+  return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
+};
+const URL = "http://localhost:3000/json/events.json";
+const _sfc_main$4 = {
+  __name: "AppUpcoming",
+  __ssrInlineRender: true,
+  async setup(__props) {
+    let __temp, __restore;
+    const list = ref([]);
+    const { data } = ([__temp, __restore] = withAsyncContext(() => useAsyncData(`upcoming`, () => {
+      return $fetch(URL);
+    })), __temp = await __temp, __restore(), __temp);
+    if (data?.value) list.value = data.value;
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_TheSwiper = _sfc_main$5;
+      _push(`<section${ssrRenderAttrs(mergeProps({ class: "app-upcoming" }, _attrs))}><div class="app-upcoming__wrapper"><div class="app-upcoming__container"><h2 class="app-upcoming__title section-title">МЕРОПРИЯТИЯ</h2>`);
+      _push(ssrRenderComponent(_component_TheSwiper, {
+        component: unref(_sfc_main$8$1),
+        list: unref(list),
+        class: "app-upcoming__swiper"
+      }, null, _parent));
+      _push(`<a href="#" class="app-upcoming__link link btn-all">Смотреть все</a></div></div></section>`);
+    };
+  }
+};
+const _sfc_setup$4 = _sfc_main$4.setup;
+_sfc_main$4.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/app/AppUpcoming.vue");
+  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
+};
+const _sfc_main$3 = {
+  __name: "ArticleCard",
+  __ssrInlineRender: true,
+  props: {
+    data: {
+      type: Object,
+      default: () => ({})
+    }
+  },
+  setup(__props) {
+    const props = __props;
+    const date = computed(() => {
+      try {
+        return new Date(props.data.date).toLocaleDateString();
+      } catch {
+        return null;
+      }
+    });
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_SvgIcon = _sfc_main$7$1;
+      _push(`<article${ssrRenderAttrs(mergeProps({ class: "article-card" }, _attrs))}><a href="#" class="article-card__link"><picture class="article-card__picture"><source media="(max-width: 450px)" type="image/webp"${ssrRenderAttr("srcset", __props.data.img_webp)}><source media="(max-width: 450px)"${ssrRenderAttr("srcset", __props.data.img)}><source media="(max-width: 1169px)" type="image/webp"${ssrRenderAttr("srcset", __props.data.img_tablet_webp)}><source media="(max-width: 1169px)"${ssrRenderAttr("srcset", __props.data.img_tablet)}><source type="image/webp"${ssrRenderAttr("srcset", __props.data.img_webp)}><img${ssrRenderAttr("src", __props.data.img)} alt="data.alt" class="article-card__img"></picture></a><div class="article-card__info"><time${ssrRenderAttr("datetime", __props.data.date)} class="event-card__time">${ssrInterpolate(unref(date))}</time><a href="#" class="article-card__title-link"><h4 class="article-card__title">${ssrInterpolate(__props.data.title)}</h4><div class="article-card__arrow arrow">`);
+      _push(ssrRenderComponent(_component_SvgIcon, {
+        name: "arrow",
+        class: "arrow",
+        width: "92",
+        height: "62"
+      }, null, _parent));
+      _push(`</div></a><p class="article-card__description">${ssrInterpolate(__props.data.description)}</p></div></article>`);
+    };
+  }
+};
+const _sfc_setup$3 = _sfc_main$3.setup;
+_sfc_main$3.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/article/ArticleCard.vue");
+  return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
+};
+const _sfc_main$2 = {};
+function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
+  const _component_SvgIcon = _sfc_main$7$1;
+  const _component_TheMap = __nuxt_component_1$1;
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "app-contacts" }, _attrs))}><h2 class="app-contacts__section-title section-title">КОНТАКТЫ</h2><div class="app-contacts__wrapper"><ul class="app-contacts__list"><li class="app-contacts__item"><div class="app-contacts__item-mark">`);
+  _push(ssrRenderComponent(_component_SvgIcon, {
+    class: "app-contacts__item-icon",
+    name: "location"
+  }, null, _parent));
+  _push(`</div><div class="app-contacts__item-content"><h2 class="app-contacts__item-title"> Томск, Красноармейская 146 </h2><div class="app-contacts__item-info"> 2 этаж </div><div class="app-contacts__item-info"> оф. 206 </div></div></li><li class="app-contacts__item"><div class="app-contacts__item-mark">`);
+  _push(ssrRenderComponent(_component_SvgIcon, {
+    class: "app-contacts__item-icon",
+    name: "home"
+  }, null, _parent));
+  _push(`</div><div class="app-contacts__item-content"><h2 class="app-contacts__item-title"> Отдел аренды </h2><div class="app-contacts__item-info"><a href="tel:+73822907256" class="app-contacts__item-info"> 8 (3822) 90-72-56 </a></div><div class="app-contacts__item-info"><a href="mailto:idat@tusur.ru" class="app-contacts__item-info"> idat@tusur.ru </a></div></div></li><li class="app-contacts__item"><div class="app-contacts__item-mark">`);
+  _push(ssrRenderComponent(_component_SvgIcon, {
+    class: "app-contacts__item-icon",
+    name: "star"
+  }, null, _parent));
+  _push(`</div><div class="app-contacts__item-content"><h2 class="app-contacts__item-title"> Отдел мероприятий </h2><div class="app-contacts__item-info"><a href="tel:+73822907256" class="app-contacts__item-info"> 8 (3822) 90-72-56 </a></div><div class="app-contacts__item-info"><a href="mailto:idat@tusur.ru" class="app-contacts__item-info"> idat@tusur.ru </a></div></div></li></ul><div class="app-contacts__map-container">`);
+  _push(ssrRenderComponent(_component_TheMap, { class: "app-contacts__map" }, null, _parent));
+  _push(`</div></div></section>`);
+}
+const _sfc_setup$2 = _sfc_main$2.setup;
+_sfc_main$2.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/app/AppContacts.vue");
+  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
+};
+const __nuxt_component_6 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender$2]]), { __name: "AppContacts" });
+const _sfc_main$1 = {};
+function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "doit" }, _attrs))}><div style="${ssrRenderStyle({ "margin": "0" })}"><div class="doit__text-style--structure"><span class="doit__text-style doit__text-style--1">Просто делайте, </span><span class="doit__text-style doit__text-style--2"> что нравиться,</span></div><span class="doit__text-style doit__text-style--3">а мы вам поможем</span></div></div>`);
+}
+const _sfc_setup$1 = _sfc_main$1.setup;
+_sfc_main$1.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Doit.vue");
+  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
+};
+const __nuxt_component_7 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$1, [["ssrRender", _sfc_ssrRender$1]]), { __name: "Doit" });
+const _sfc_main = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_AppHero = __nuxt_component_0;
+  const _component_AppOffers = _sfc_main$9;
+  const _component_AppAbout = __nuxt_component_2;
+  const _component_AppUpcoming = _sfc_main$4;
+  const _component_AppListing = _sfc_main$9$1;
+  const _component_ArticleCard = _sfc_main$3;
+  const _component_AppContacts = __nuxt_component_6;
+  const _component_Doit = __nuxt_component_7;
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "home" }, _attrs))}>`);
+  _push(ssrRenderComponent(_component_AppHero, { class: "home__hero" }, null, _parent));
+  _push(ssrRenderComponent(_component_AppOffers, { class: "home__offers" }, null, _parent));
+  _push(ssrRenderComponent(_component_AppAbout, { class: "home__about" }, null, _parent));
+  _push(ssrRenderComponent(_component_AppUpcoming, { class: "home__apcoming" }, null, _parent));
+  _push(ssrRenderComponent(_component_AppListing, {
+    class: "home__listing",
+    title: "Блог",
+    moreLink: true,
+    grid: "column",
+    url: "/json/blog.json"
+  }, {
+    default: withCtx(({ list }, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(`<!--[-->`);
+        ssrRenderList(list, (card) => {
+          _push2(ssrRenderComponent(_component_ArticleCard, {
+            key: card.slug,
+            data: card,
+            class: "app-listing__article-card"
+          }, null, _parent2, _scopeId));
+        });
+        _push2(`<!--]-->`);
+      } else {
+        return [
+          (openBlock(true), createBlock(Fragment, null, renderList(list, (card) => {
+            return openBlock(), createBlock(_component_ArticleCard, {
+              key: card.slug,
+              data: card,
+              class: "app-listing__article-card"
+            }, null, 8, ["data"]);
+          }), 128))
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(ssrRenderComponent(_component_AppContacts, { class: "home__contacts" }, null, _parent));
+  _push(ssrRenderComponent(_component_Doit, { class: "home__doit" }, null, _parent));
+  _push(`</div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/index.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+
+export { index as default };
+//# sourceMappingURL=index-CrRikdp-.mjs.map

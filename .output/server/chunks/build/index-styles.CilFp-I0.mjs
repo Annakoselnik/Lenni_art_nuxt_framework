@@ -1,0 +1,8 @@
+const index_vue_vue_type_style_index_0_lang = ".container{box-sizing:border-box;margin:0 auto;max-width:1414px;padding-left:40px;padding-right:40px;width:100%}@media(max-width:1339px){.container{padding-left:40px;padding-right:40px}}@media(max-width:767px){.container{padding-left:30px;padding-right:30px}}@media(max-width:369px){.container{padding-left:20px;padding-right:20px}}.width_624{box-sizing:border-box;max-width:624px;width:100%}@media(max-width:1659px){.width_624{max-width:604px}}@media(max-width:1339px){.width_624{max-width:566px}}.is-hidden{border:none!important;height:0!important;margin:0!important;padding:0!important;position:absolute!important;width:0!important;clip:rect(0 0 0 0)!important;clip-path:inset(100%)!important;overflow:hidden!important;pointer-events:none!important;visibility:hidden!important;white-space:nowrap!important}.home{margin:0 auto;max-width:1920px;width:100%}.home__listing{margin-bottom:78px}@media(max-width:1339px){.home__listing{margin-bottom:90px}}@media(max-width:767px){.home__listing{margin-bottom:58px}}@media(max-width:369px){.home__listing{margin-bottom:60px}}.home__hero,.home__offers{align-items:center;box-sizing:border-box;display:flex;flex-direction:column;width:100%}";
+
+const indexStyles_CilFpI0 = [
+  index_vue_vue_type_style_index_0_lang
+];
+
+export { indexStyles_CilFpI0 as default };
+//# sourceMappingURL=index-styles.CilFp-I0.mjs.map

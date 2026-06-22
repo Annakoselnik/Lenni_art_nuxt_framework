@@ -1,0 +1,29 @@
+import { openBlock, createElementBlock, createElementVNode } from 'vue';
+
+const _hoisted_1 = {
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "110",
+  height: "110",
+  fill: "none"
+};
+function render(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1, [..._cache[0] || (_cache[0] = [
+    createElementVNode("path", {
+      fill: "#1F1E1E",
+      d: "M0 0h110v110H0z"
+    }, null, -1),
+    createElementVNode("g", { "clip-path": "url(#clipPath_0)" }, [
+      createElementVNode("path", { d: "M43 43h24v24H43z" }),
+      createElementVNode("circle", {
+        cx: "55",
+        cy: "55",
+        r: "9",
+        fill: "#BC3324"
+      })
+    ], -1)
+  ])]);
+}
+const location = { render };
+
+export { location as default, render };
+//# sourceMappingURL=location-B0d7SrCm.mjs.map

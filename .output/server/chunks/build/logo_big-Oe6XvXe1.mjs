@@ -1,0 +1,20 @@
+import { openBlock, createElementBlock, createElementVNode } from 'vue';
+
+const _hoisted_1 = {
+  xmlns: "http://www.w3.org/2000/svg",
+  fill: "none",
+  viewBox: "0 0 1920 325"
+};
+function render(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1, [..._cache[0] || (_cache[0] = [
+    createElementVNode("path", {
+      fill: "#1F1E1E",
+      "fill-rule": "evenodd",
+      d: "M675.453 325h200.745v-7.927H713.443V159.935h126.765v-7.926H713.443V7.927H876V0H675.453zm266.443 0V8.393c34.39 0 141.564 13.989 149.554 194.907V325h37.99V0h-37.99v143.615c-9.59-48.027-28.39-82.998-57.18-108.177C998.68 3.73 958.291 0 941.896 0h-37.99v325zM485.389 0v317.073h161.956V325H0V0zm722.061 325V8.393c34.39 0 141.56 13.989 149.56 194.907V325H1395V0h-37.99v143.615c-9.6-48.027-28.4-82.998-57.19-108.177C1264.23 3.73 1223.84 0 1207.45 0h-37.99v325zM1435.01 0H1920v325h-484.99z"
+    }, null, -1)
+  ])]);
+}
+const logo_big = { render };
+
+export { logo_big as default, render };
+//# sourceMappingURL=logo_big-Oe6XvXe1.mjs.map

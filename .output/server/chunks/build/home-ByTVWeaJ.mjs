@@ -1,0 +1,28 @@
+import { openBlock, createElementBlock, createElementVNode } from 'vue';
+
+const _hoisted_1 = {
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "110",
+  height: "110",
+  fill: "none"
+};
+function render(_ctx, _cache) {
+  return openBlock(), createElementBlock("svg", _hoisted_1, [..._cache[0] || (_cache[0] = [
+    createElementVNode("path", {
+      fill: "#1F1E1E",
+      d: "M0 0h110v110H0z"
+    }, null, -1),
+    createElementVNode("g", { "clip-path": "url(#clipPath_2)" }, [
+      createElementVNode("path", { d: "M43 43h24v24H43z" }),
+      createElementVNode("path", {
+        fill: "#BC3324",
+        "fill-rule": "evenodd",
+        d: "m63 51-6-5.26a3 3 0 0 0-4 0L47 51a3 3 0 0 0-1 2.26V62a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-8.75A3 3 0 0 0 63 51m-6 12h-4v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1z"
+      })
+    ], -1)
+  ])]);
+}
+const home = { render };
+
+export { home as default, render };
+//# sourceMappingURL=home-ByTVWeaJ.mjs.map
