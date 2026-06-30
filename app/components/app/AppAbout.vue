@@ -150,14 +150,17 @@
         font-family: @font6;
         font-size: 18px;
         line-height: 25px;
-        width: 867px;
+        width: 100%;
+        max-width: 867px;
         @media @bw1340 {
-            width: 827px;
+            width: 100%;
+            max-width: 827px;
             font-size: 18px;
             line-height: 25px;
         }
         @media @bw768 {
-            width: 637px;
+            width: 100%;
+            max-width: 637px;
             font-size: 16px;
             line-height: 22px;
         }
@@ -184,7 +187,8 @@
             "text text";
         }
         @media @bw768 {
-            width: 709px;
+            width: 100%;
+            max-width: 709px;
             grid-template-columns: 419px 1fr;
             grid-template-areas: 
             "pic pic"
@@ -201,29 +205,35 @@
     }
     &__picture {
         grid-area: pic;
-        width: 870px;
+        width: 100%;
+        max-width: 870px;
         height: 577px;
         @media @bw1340 {
-            width: 828px;
+            width: 100%;
+            max-width: 828px;
             height: 550px;
         }
         @media @bw768 {
-            width: 708px;
+            width: 100%;
+            max-width: 708px;
             height: 470px;
             
         }
         @media @bw370 {
-            width: 280px;
+            width: 100%;
+            max-width: 280px;
             height: 186px;
         }
     }
     &__picture2 {
         grid-area: pic2;
         align-self: flex-end; /*Приравнять к низу*/
-        width: 406px;
+        width: 100%;
+        max-width: 406px;
         height: 493px;
         @media @bw1340 {
-            width: 393px;
+            width: 100%;
+            max-width: 393px;
             height: 481px;
             padding-left: 39px;
         }
@@ -231,12 +241,14 @@
             align-self: start;
             justify-self: end;
             padding-top: 52px;
-            width: 262px;
+            width: 100%;
+            max-width: 262px;
             height: 321px;
             
         }
         @media @bw370 {
-            width: 193px;
+            width: 100%;
+            max-width: 193px;
             height: 236px;
             padding-top: 50px;
             padding-bottom: 50px;
@@ -257,13 +269,15 @@
             line-height: 60px;
         }
         @media @bw768 {
-            width: 419px;
+            width: 100%;
+            max-width: 419px;
             padding-top: 79.5px;
             font-size: 26px;
             line-height: 35px;
         }
         @media @bw370 {
-            width: 280px;
+            width: 100%;
+            max-width: 280px;
             font-size: 18px;
             line-height: 25px;
             padding-top: 60px;
@@ -328,40 +342,49 @@
     }
      &__pic-3 {
         grid-area: pic3;
-        width: 870px;
+        width: 100%;
+        max-width: 870px;
         height: 361px;
         @media @bw1340 {
-            width: 821px;
+            width: 100%;
+            max-width: 821px;
             height: 342px;
         }
         @media @bw768 {
-            width: 672px;
+            width: 100%;
+            max-width: 672px;
             height: 277px;
         }
         @media @bw370 {
-            width: 267px;
+            width: 100%;
+            max-width: 267px;
             height: 111px;
         }
     } 
     &__red-rectangle {
         background-color: @red;
-        width: 928px;
+        width: 100%;
+        max-width: 928px;
         height: 246px;
         @media @bw1340 {
-            width: 867px;
+            width: 100%;
+            max-width: 867px;
             height: 231px;
         }
         @media @bw768 {
-            width: 708px;
+            width: 100%;
+            max-width: 708px;
             height: 187px;
         }
         @media @bw370 {
-            width: 280px;
+            width: 100%;
+            max-width: 280px;
             height: 75px;
         }
     }
     &__img-block3 {
-        width: 870px;
+        width: 100%;
+        max-width: 870px;
         height: 361px;
         position: relative;
         bottom: 228px;
@@ -379,21 +402,25 @@
             left: 11px;
         }
         @media @bw1340 {
-            width: 821px;
+            width: 100%;
+            max-width: 821px;
             height: 342px;
         }
         @media @bw768 {
-            width: 672px;
+            width: 100%;
+            max-width: 672px;
             height: 277px;
         }
         @media @bw370 {
-            width: 267px;
+            width: 100%;
+            max-width: 267px;
             height: 111px;
         }
     }
     &__text-3 {
         grid-area: text3;
-        width: 353px;
+        width: 100%;
+        max-width: 353px;
         font-size: 18px;
         line-height: 25px;
         font-weight: 400;
@@ -404,21 +431,24 @@
         @media @bw1340 {
         font-size: 18px;
         line-height: 25px;
-        width: 353px;
+        width: 100%;
+        max-width: 353px;
         padding-left: 40px;
         padding-top: 137px;
         }
         @media @bw768 {
         font-size: 16px;
         line-height: 22px;
-        width: 280px;
+        width: 100%;
+        max-width: 280px;
         padding-left: 0px;
         padding-top: 80px;
         }
         @media @bw370 {
         font-size: 16px;
         line-height: 22px;
-        width: 281px;
+        width: 100%;
+        max-width: 281px;
         padding-top: 60px;
         }
     }
@@ -454,25 +484,29 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 344px;
+        width: 100%;
+        max-width: 344px;
         height: 60px;
         padding-top: 89px;
         padding-left: 64px;
         
         @media @bw1340 {
-            width: 353px;
+            width: 100%;
+            max-width: 353px;
             height: 60px;
             padding-top: 88px;
             padding-left: 40px;
         }
         @media @bw768 {
-            width: 262px;
+            width: 100%;
+            max-width: 262px;
             height: 40px;
             padding-top: 106px;
             padding-left: 166px;
         }
         @media @bw370 {
-            width: 280px;
+            width: 100%;
+            max-width: 280px;
             height: 40px;
             padding-top: 30px;
             padding-left: 0px;

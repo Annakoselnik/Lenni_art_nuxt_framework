@@ -147,8 +147,8 @@
     &__nav-link {
       margin: 0 0 20px;
       color: @black;
-      font-weight: 600;
-      font-size: 16px;
+      font-weight: 400;
+      font-size: 12px;
       line-height: 22px;
       text-decoration: none;
       transition: color 0.2s;
@@ -169,11 +169,11 @@
     }
     &__subscribe-form {
       @media @bw1170 {
-        width: 390px;
+        width: 100%;
       }
       @media @bw768 {
         width: 100%;
-        width: 388px;
+
       }
     }
     &__subscribe-form-wrapper {
@@ -213,7 +213,8 @@
       }
     }
     &__terms {
-      width: 400px;
+      width: 100%;
+      max-width: 400px;
       @media @bw1170 {
         width: auto;
       }
@@ -231,7 +232,7 @@
       }
       @media @bw370 {
         margin: auto;
-        width: 320px;
+        width: 280px;
       }
     }
     &__copyrights {
@@ -302,7 +303,8 @@
     &__devs {
       display: flex;
       justify-content: flex-end;
-      width: 400px;
+      width: 100%;
+      max-width: 400px;
       @media @bw1170 {
         width: auto;
         margin-left: auto;

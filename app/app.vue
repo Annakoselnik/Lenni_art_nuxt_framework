@@ -90,6 +90,7 @@
 
 <style lang="less">
 .app {
+  overflow-x: hidden;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

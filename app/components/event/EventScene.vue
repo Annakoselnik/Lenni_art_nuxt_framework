@@ -376,13 +376,15 @@ const onClick = (check) => {
     grid-area: scene;
     display: flex;
     flex-direction: column;
-    width: 780px;
+    width:100%;
+    max-width: 780px;
     @media @bw1170 {
-    width: 680px;   
+      width:100%;
+      max-width: 680px;   
     }
     @media @bw1020 {
-    width: 100%;
-    margin: 0;
+      width: 100%;
+      margin: 0;
     }
     &__title {
       display: flex;

@@ -217,7 +217,7 @@
      width: 100%;
      margin: 80px auto 0;
      gap: 65px 11%;
-     grid-template-columns: 405px 1fr;
+     grid-template-columns: minmax(280px, 405px) 1fr;
     /* grid-template-columns: px calc(89% - 405px); */
      grid-template-areas: 
     "checks scheme"
@@ -279,7 +279,8 @@
      display: flex;
      flex-direction: column;
      align-items: flex-end;
-     width: 780px;
+     width:100%;
+     max-width: 780px;
      @media @bw1340 {
             max-width: 780px;
         }
@@ -346,7 +347,7 @@
 
   &__order {
   grid-area: order; 
-  width: 405px;
+  max-width: 405px;
   @media @bw1020 {
   width: 100%;
   margin: 0;
@@ -396,11 +397,13 @@
      font-weight: 400;
      font-size: 16px;
      line-height: 22px; 
+     word-break: break-word;
      }
      &__tickets-list {
      margin-bottom: 20px;
      }
      &__total {
+      
      display: flex;
      justify-content: center;
      align-items: center;
@@ -441,6 +444,8 @@
   }
 
    &__total {
+    width: 100%;
+    word-break: break-word;
     &::before {
       content: attr(data-caption);
       margin-right: 30px;
@@ -457,7 +462,7 @@
   } 
      &__legend {
       grid-area:legend;
-      width: 780px;
+      max-width: 780px;
       @media @bw1020 {
       width: 100%;
       margin: 0;

@@ -75,7 +75,7 @@
     .container;
     display: flex;
     flex-direction: column;
-
+    overflow: hidden;
     &__column-list {
       display: flex;
       flex-direction: column;

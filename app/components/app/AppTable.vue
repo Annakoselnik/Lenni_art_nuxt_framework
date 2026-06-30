@@ -70,21 +70,24 @@
 
 <style lang="less">
 .app-table {
-    margin: auto;
+    margin: 0 auto;
     max-width: 1334px;
-    width: 100%;
     border-collapse: collapse;
     color: @black;
     text-align: center;
+    table-layout: auto;
 
     @media @bw1340 {
-        width: 1260px; 
+        width:100%;
+        max-width: 1260px; 
     }
     @media @bw768 {
-        width: 708px;
+        width:100%;
+        max-width: 708px;
     }
     @media @bw370 {
-        width: 320px;
+        width:100%;
+        max-width: 320px;
     }
     @media @bw768 {
         display: block;
@@ -169,6 +172,7 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 25px;
+        word-break: break-word; 
         @media @bw1020 {
             font-size: 14px;
         }
@@ -233,12 +237,13 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
+        word-break: break-word; 
         text-align: left;
         @media @bw768 {
             display: block;
             width: 100%;
             text-align: center;
-            font-weight: 600;
+            font-weight: 400;
             padding: 13px 15px;
             font-size: 14px;
         }
@@ -249,9 +254,12 @@
         height: 50px;
         padding: 10px;
         border: 1px solid #BFBFBF;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 22px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        word-break: break-word;    
+        height: auto;              
+        //min-height: 50px; 
 
         @media @bw768 {
             display: flex;

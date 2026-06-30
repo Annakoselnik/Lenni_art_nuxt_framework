@@ -6,24 +6,26 @@
     </h2>
 
     <div class="page-footer__subscribe-form-wrapper">
-            <div class="page-footer__subscribe-form-wrapper page-footer__subscribe-form-email">
-                  <input
-                  v-model="email"
-                  type="email"
-                  placeholder="     Email"
-                  class="subscribe-form__input"
-                  required
-                  />
-                  <span
-                    v-if="submitCount && (!email || !emailIsValid)"
-                    class="subscribe-form__error field-error"
-                  >
-                    {{
-                      email && !emailIsValid
-                        ? "Email указан неверно"
-                        : "Это поле обязательно"
-                    }}
-                  </span>
+            <div class="page-footer__subscribe-form-wrapper">
+              <div class="page-footer__subscribe-form-email">
+                    <input
+                    v-model="email"
+                    type="email"
+                    placeholder="     Email"
+                    class="subscribe-form__input"
+                    required
+                    />
+                    <span
+                      v-if="submitCount && (!email || !emailIsValid)"
+                      class="subscribe-form__error field-error"
+                    >
+                      {{
+                        email && !emailIsValid
+                          ? "Email указан неверно"
+                          : "Это поле обязательно"
+                      }}
+                    </span>
+                  </div>
             </div>
 
             <button type="submit" class="page-footer__subscribe-form-submit">
@@ -81,8 +83,8 @@
 <style lang="less">
 
 .subscribe-form {
-  width: 405px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 405px;
   &__title {
     margin: 0 0 25px;
     font-size: 16px;

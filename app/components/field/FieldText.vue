@@ -23,11 +23,12 @@ export default {
 <style lang="less">
 
     .pop-up-text{
-        width: 960px;
+        width: 100%;
+        max-width: 960px;
         height: 120px;
 
         @media @bw768 {
-            width: 608px;
+            width: 100%;
             height: 149px;
         }
         @media @bw370 {

@@ -100,7 +100,8 @@
     }
     &__list {
         flex-shrink: 0;
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
         margin: 0 30px 0 0;
         padding: 0;
         list-style: none;
@@ -235,12 +236,13 @@
     }
 
     &__map-container {
-        width: 750px;
+        width: 100%;
+        max-width: 750px;
         height: 490px;
         margin-left: auto;
         @media @bw1340 {
             width: 100%;
-            width: 752px;
+            max-width: 752px;
             height: 493px;
             /* margin-bottom: 130px; */
         }
